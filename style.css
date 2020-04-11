@@ -1,0 +1,97 @@
+html {
+  font-family: "Spectral SC", serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "Spectral SC", serif;
+  color: #7f82b2;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 0;
+}
+
+.header-subtitle {
+  font-size: 3vw;
+  justify-self: flex-start;
+  width: fit-content;
+  display: flex;
+  font-family: "Spectral SC", serif;
+  color: #7f82b2;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.card {
+  width: 20vw;
+  height: 30vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-body {
+  width: 95%;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.consultant-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dot-container {
+  display: flex;
+  align-items: center;
+}
+
+.dots:nth-child(even) {
+  height: 6px;
+  width: 6px;
+}
+
+.dots {
+  width: 5px;
+  height: 5px;
+  background-color: #7f82b2;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.card-title,
+.card-subtitle {
+  font-size: 2vw;
+  padding: 0;
+
+  color: black;
+  margin: 0;
+  display: flex;
+}
+
+.card-text {
+  font-size: 1vw;
+}
+
+/* Photo by Daniel Leone on Unsplash */
+/* Photo by Austin Distel on Unsplash */
