@@ -7,12 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap"
       rel="stylesheet"
@@ -20,57 +14,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="masthead" id="home">
+      <nav class="nav-bar-top">
+        <a href="#home"> Home</a>
+        <a href="#about"> About</a>
+        <a href="#consultants"> Consultants</a>
+        <a href="#projects"> Projects</a>
+        <a href="#contact"> Contact</a>
+      </nav>
       <div class="title-container">
         <h1>Next Level Consulting</h1>
         <h3 class="header-subtitle">What can we do for you?</h3>
       </div>
     </header>
-    <div class="card-container">
-      <div class="card">
-        <img src="consultant.jpg" class="card-img-top" alt="Consultant" />
-        <div class="card-body">
-          <section class="consultant-info">
-            <h3 class="card-title">Gabriel</h3>
-            <div class="dot-container">
-              <div class="dots"></div>
-              <div class="dots"></div>
-              <div class="dots"></div>
+    <section class="about" id="about"></section>
+    <section class="consultants" id="consultants">
+      <div class="card-container">
+        <div class="card">
+          <img src="consultant.jpg" class="card-img-top" alt="Consultant" />
+          <div class="card-body">
+            <div class="consultant-info">
+              <h3 class="card-title">Gabriel</h3>
+              <div class="dot-container">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+              </div>
+              <h5 class="card-subtitle">Jurist</h5>
             </div>
-            <h5 class="card-subtitle">Jurist</h5>
-          </section>
-          <div class="card-text">
-            This area describes what this consultant brings to the table.
-            Clicking on the card will take you to a page with more detail about
-            the person and his/hers expertise
+            <div class="card-text">
+              This area describes what this consultant brings to the table.
+              Clicking on the card will take you to a page with more detail
+              about the person and his/hers expertise
+            </div>
           </div>
         </div>
       </div>
-      <!-- <a href="#">
-        <div class="card" style="width: 20vw; height: 30vw;">
-          <img src="consultant.jpg" class="card-img-top" alt="Consultant" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="card" style="width: 20vw; height: 30vw;">
-          <img src="consultant.jpg" class="card-img-top" alt="Consultant" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-      </a> -->
-    </div>
+    </section>
+    <section class="projects" id="projects"></section>
+    <section class="contact" id="contact"></section>
+    <section class="footer" id="footer">
+      Photo by Daniel Leone & Austin Distel on Unsplash
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

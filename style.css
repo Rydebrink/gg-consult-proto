@@ -1,12 +1,36 @@
+body {
+  margin: 0;
+}
+
 html {
   font-family: "Spectral SC", serif;
+  color: #7f82b2;
 }
 
 header {
-  display: flex;
-  justify-content: center;
   font-family: "Spectral SC", serif;
   color: #7f82b2;
+  display: block;
+}
+
+.masthead {
+  text-align: center;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -25,16 +49,41 @@ h1 {
   padding-bottom: 20px;
 }
 
+.nav-bar-top {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3vw;
+  border-bottom: 5px solid black;
+}
+
 .title-container {
   display: flex;
   flex-direction: column;
 }
 
 body {
-  background-image: url(background.jpg);
+  /* background-image: url(background.jpg);
   background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-color: #030a10; */
 }
 
+.about {
+  height: 100vh;
+  background: green;
+}
+.consultants {
+  height: 100vh;
+  background: grey;
+}
+.projects {
+  height: 100vh;
+  background: blue;
+}
+.contact {
+  height: 100vh;
+  background: yellow;
+}
 .card {
   width: 20vw;
   height: 30vw;
@@ -83,7 +132,6 @@ body {
 .card-subtitle {
   font-size: 2vw;
   padding: 0;
-
   color: black;
   margin: 0;
   display: flex;
@@ -91,6 +139,10 @@ body {
 
 .card-text {
   font-size: 1vw;
+}
+
+.footer {
+  text-align: center;
 }
 
 /* Photo by Daniel Leone on Unsplash */
